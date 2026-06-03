@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+        }
+    </style>
+    <title>Web Dev Final Project</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Fifa Home</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="merch.html">Merch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <div id="checkoutOutput"></div>
+
+        <button class="btn btn-danger mt-3" onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        © 2026 FIFA World Cup — Fan Store & Ticketing
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
